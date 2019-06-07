@@ -39,7 +39,7 @@ create table `order_master` (
 
 create table 'order_detail'(
 	`detail_id` varchar(32) not null,
-	'order_id' varchar(32) not null,
+	`order_id` varchar(32) not null,
 	`product_id` varchar(32) not null,
 	`priduct_name` varchar(64) not null,
 	`prduct_price` decimal(8,2) not null,
